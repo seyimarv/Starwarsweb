@@ -1,0 +1,101 @@
+.Explore {
+   padding-bottom: 200px;
+   
+   background-size: cover;
+
+    .container {
+        width: 100%;
+        margin: auto;
+        .box1 {
+            border:  black 1px solid;
+            box-sizing: border-box;
+            box-shadow:  1rem 1rem 1rem 1rem rgba(5, 5, 5, 0.5);
+            padding-bottom: 100px;
+            border-radius: 2%;
+            background-image: url('../../Assests/matt-gross-RO3-oMM3s8A-unsplash.jpg');
+           
+            
+            .picture1 {
+                box-shadow:  1rem 1rem 1rem 1rem rgba(3, 2, 3, 0.5);
+                box-sizing: border-box;
+                padding-bottom: 200px;
+                background-image:url( '../../Assests/al-soot-IfYgg7ZLEQw-unsplash.jpg');
+                background-size: cover;
+                width: 80%;
+                border-radius: 60%;
+                margin: auto;
+            }
+
+            
+        }
+        .box2 {
+            border:  black 1px solid;
+            box-sizing: border-box;
+            box-shadow:  1rem 1rem 1rem 1rem rgba(5, 5, 5, 0.5);
+            padding-bottom: 100px;
+            border-radius: 2%;
+            background-image: url('../../Assests/matt-gross-RO3-oMM3s8A-unsplash.jpg');
+
+            .picture2 {
+                box-shadow:  1rem 1rem 1rem 1rem rgba(3, 2, 3, 0.5);
+                box-sizing: border-box;
+                padding-bottom: 200px;
+                margin: auto;
+                background-image:url( '../../Assests/andrew-santellan-kc3AYIVIpX4-unsplash.jpg');
+                background-size: cover;
+                width: 80%;
+                border-radius: 60%;
+            }
+            
+        }
+        .box3 {
+            border:  black 1px solid;
+            box-sizing: border-box;
+            box-shadow:  1rem 1rem 1rem 1rem rgba(5, 5, 5, 0.5);
+            padding-bottom: 100px;
+            border-radius: 2%;
+            background-image: url('../../Assests/matt-gross-RO3-oMM3s8A-unsplash.jpg');
+
+            .picture3 {
+                box-shadow:  1rem 1rem 1rem 1rem rgba(3, 2, 3, 0.5);
+                box-sizing: border-box;
+                padding-bottom: 200px;
+                margin: auto;
+                background-image:url( '../../Assests/brian-mcgowan-yjOUm3zkRD0-unsplash.jpg');
+                background-size: cover;
+                width: 80%;
+                border-radius: 60%;
+            }
+           
+        }
+         
+    }
+    .title {
+        color: white;
+        font-weight: 900;
+       font-size: 25px;
+       letter-spacing: 2px;
+    }
+    
+    .link {
+        margin: auto;
+    }
+    
+    
+    .btn {
+        letter-spacing: 2px;
+        padding: 10px 40px;
+        border:  rgba(3, 3, 3, 0.979) 1px solid;
+        color: white;
+        background-color: rgb(15, 15, 15);
+        box-sizing: border-box;
+        box-shadow:  1rem 1rem 1rem 1rem rgba(32, 32, 32, 0.2);
+        width: 100%;
+      
+      
+    &:hover{
+        color: white;
+        background-color: grey;
+    }
+   }
+}

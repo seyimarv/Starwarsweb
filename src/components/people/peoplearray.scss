@@ -1,0 +1,27 @@
+.peoples {
+    padding-bottom: 100px;
+}
+
+.cards {
+    border-radius: 30%;
+    border:  black 1px solid;
+    box-sizing: border-box;
+    box-shadow:  0.5rem 0.5rem 0.5rem 0.5rem rgba(5, 5, 5, 0.15);
+    border-radius: 2%;
+    background-color: black;
+    color: white;
+
+    .arrow {
+        border: white black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        
+      }   
+
+      .down {
+        transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      }
+
+}
